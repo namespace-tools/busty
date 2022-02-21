@@ -2,6 +2,8 @@
 
 # Busty Py Directory Buster
 # Because, surely, we needed another one
+# "Rate" is just a control, not the actual speed
+# Maybe in the future I'll add a worker pool if I need it to go faster.
 
 import requests
 import argparse
