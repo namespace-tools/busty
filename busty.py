@@ -17,7 +17,7 @@ class Busty:
 		# Track length of line outputs so they can be cleared properly
 		cLen, pLen = 0, 0
 		
-		# Append '/' to the URL if it's not there
+		# Append '/' to the URL if it's not there (port too)
 		if self.args.url[-1] == '/':
 			self.args.url[-1] = ':'
 			self.args.url += self.args.port+'/'
